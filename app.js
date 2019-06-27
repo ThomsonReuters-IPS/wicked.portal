@@ -21,7 +21,6 @@ const ping = require('./routes/ping');
 const help = require('./routes/help');
 const kill = require('./routes/kill');
 const utils = require('./routes/utils');
-const clarivate = require('./routes/clarivate');
 const portalGlobals = require('./portalGlobals');
 const wicked = require('wicked-sdk');
 const correlationIdHandler = wicked.correlationIdHandler();
