@@ -46,7 +46,8 @@ app.initState = 'Waiting for API...';
 
 const wickedOptions = {
     userAgentName: 'wicked.portal',
-    userAgentVersion: utils.getVersion()
+    userAgentVersion: utils.getVersion(),
+    doNotPollConfigHash: true
 };
 
 /**
